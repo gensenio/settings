@@ -1,0 +1,194 @@
+import {Injectable} from '@angular/core';
+import {HttpClient} from '@angular/common/http';
+import {SelectItem, TreeNode} from 'primeng/primeng';
+import {forkJoin, Observable, of} from 'rxjs';
+import {map, mergeMap, tap} from 'rxjs/operators';
+import {CHHttpParams, TranslateService, TreeService, VSMService} from '@skidata/ch-components-v2';
+import {Product} from '../models/Product';
+import {SearchParams} from '../models/SearchParams';
+import { Metric } from '../models/Metric';
+import Decimal from "decimal.js-light";
+
+const PERIODS = ['DAILY', 'WEEKLY', 'MONTHLY'];
+
+@Injectable({
+    providedIn: 'root'
+})
+export class UsageMetricsService {
+
+    tenants: TreeNode[];
+    metrics: SelectItem[] = [];
+    periods: SelectItem[];
+
+    private metricMap = {};
+
+    loading = [];
+
+    constructor(private http: HttpClient, private tree: TreeService, private translate: TranslateService, private vsm: VSMService) {
+
+        this.periods = PERIODS.map(period => ({
+            label: this.translate.instant('VSMUsageMetrics.CoveragePeriod' + period),
+            value: period
+        }));
+    }
+
+    getVersion() {
+        return this.http.get('../services/version', {responseType: 'text'});
+    }
+
+    doSearch(query: SearchParams): Observable<TreeNode[]> {
+
+        const systemsMetrics = {};
+        query.metrics.forEach(mt => {
+            const sm = systemsMetrics[mt.system] || [];
+            systemsMetrics[mt.system] = [...sm, ...mt.metrics];
+        });
+        return of(Object.keys(systemsMetrics)).pipe(mergeMap(ss => forkJoin(ss.map(system => {
+            this.loading.push({id: system, message: this.translate.instant('VSMUsageMetrics.QuerySystem' , [system]), complete: false});
+            let params = new CHHttpParams({showProgress: false})
+                .append('tenant', query.tenant)
+                .append('dateFrom', query.dateFrom.toISOString())
+                .append('dateTo', query.dateTo.toISOString())
+                .append('includingSubTenants', query.includingSubTenants.toString());
+            if (query.period) {
+                params = params.append('period', query.period);
+            }
+            for (const metric of systemsMetrics[system]) {
+                params = params.append(`metric`, metric);
+            }
+            return this.http.get<Metric[]>(`./services/${system}/search`, {params, reportProgress: false})
+                .pipe(
+                    map(result => ({system, dateTo: query.dateTo, result})),
+                    tap(() => this.loading.find(l => l.id === system).complete = true)
+                );
+        })))).pipe(
+            map(results => {
+                let dateMap = {};
+                const res: TreeNode[] = [];
+                for (const s of results) {
+                    for (const r of (s.result as any[])) {
+                        for (const v of r.values) {
+                            if (!dateMap[v.startDate]) {
+                                dateMap[v.startDate] = {
+                                    data: {
+                                        metricName: v.startDate,
+                                        startDate: v.startDate,
+                                        endDate: s.dateTo,
+                                    },
+                                    children: [],
+                                    expanded: true
+                                };
+                                res.push(dateMap[v.startDate]);
+                            }
+                            const metricDescriptor = this.metricMap[r.metricKey];
+                            const service = metricDescriptor ? metricDescriptor.product : '';
+                            const summable =  metricDescriptor ? metricDescriptor.summable : false;
+                            const entry = {
+                                data: {
+                                    metricKey: r.metricKey,
+                                    metricName: r.metricKey,
+                                    service,
+                                    system: s.system,
+                                    value: v.value || 0,
+                                    summable
+                                },
+                                children: [],
+                                expanded: true
+                            };
+                            dateMap[v.startDate].children.push(entry);
+                            let sum = new Decimal('0');
+                            if (v.entries && v.entries.length > 0) {
+                                for (const e of v.entries) {
+                                    const sentry = {
+                                        data: {
+                                            metricKey: r.metricKey,
+                                            metricName: e.key,
+                                            service,
+                                            system: s.system,
+                                            value: e.value || 0
+                                        }
+                                    };
+
+                                    if (summable) { sum = sum.add(e.value); }
+                                    entry.children.push(sentry);
+                                }
+                            }
+                            if (summable) { entry.data.value = sum.toString(); }
+                        }
+                    }
+                }
+                dateMap = null;
+                console.log(res);
+                return res;
+            }),
+            tap(() => setTimeout(() => this.loading = [], 1000), () => this.loading = [])
+        );
+    }
+
+    doExport() {
+        return [];
+    }
+
+    private getTenants() {
+        this.loading.push({id: 1, message: this.translate.instant('VSMUsageMetrics.LoadingTenants'), complete: false});
+        const params = new CHHttpParams({showProgress: false});
+        return this.http.get<SelectItem[]>('../services/tenants', {params})
+            .pipe(tap(() => this.loading.find(l => l.id === 1).complete = true));
+    }
+
+    private getSystems() {
+        this.loading.push({id: 2, message: this.translate.instant('VSMUsageMetrics.LoadingSystems'), complete: false});
+        const params = new CHHttpParams({showProgress: false});
+        return this.http.get<string[]>('../services/systems', {params})
+            .pipe(tap(() => this.loading.find(l => l.id === 2).complete = true));
+    }
+
+    private getSystemProducts(system: string, locale: string) {
+        this.loading.push({id: system, message: this.translate.instant('VSMUsageMetrics.LoadingSystemData', [system]), complete: false});
+        const params = new CHHttpParams({
+            showProgress: false
+        }).set('locale', locale);
+        return this.http.get<Product[]>(`./services/${system}/products`, {params})
+            .pipe(tap(products => {
+                this.loading.find(l => l.id === system).complete = true;
+                products.forEach(product => {
+                    product.metrics.forEach(m => {
+                        this.metricMap[m.key] = {
+                            name: m.name,
+                            description: m.description,
+                            product: product.name,
+                            summable: m.summable
+                        };
+                    });
+                    this.metrics.push({
+                        label: product.name,
+                        value: {
+                            system,
+                            metrics: product.metrics.map(m => m.key)
+                        }
+                    });
+                });
+
+            }));
+    }
+
+    doFetchData() {
+        return forkJoin([
+            this.getTenants().pipe(tap(tenants =>
+                this.tenants = this.tree.createTree(tenants, 'id', 'parentID',
+                    (data, children, parent) => ({
+                        label: (data as any).name,
+                        data: (data as any).id,
+                        children,
+                        expanded: false,
+                        parent
+                    }), null))),
+            this.getSystems()
+                .pipe(mergeMap(systems =>
+                        of(this.vsm.getLocale())
+                            .pipe(mergeMap(locale => forkJoin(
+                                systems.map(system => this.getSystemProducts(system, locale)))))
+                ))
+        ]).pipe(tap(() => setTimeout(() => this.loading = [], 1000), () => this.loading = []));
+    }
+}

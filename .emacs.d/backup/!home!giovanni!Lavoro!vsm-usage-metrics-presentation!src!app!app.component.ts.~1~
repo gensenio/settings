@@ -1,0 +1,50 @@
+import { Component, OnInit } from '@angular/core';
+import { UsageMetricsService } from './services/UsageMetrics.service';
+import { animate,  query, stagger, style, transition, trigger } from '@angular/animations';
+
+@Component({
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    animations: [
+        trigger('fadeIn', [
+            transition('* => *', [
+                query(':enter', [
+                    style({ opacity: 0 }),
+                    stagger(25, [
+                        animate('.3s ease', style({ opacity: 1 }))
+                    ])
+                ], { optional: true }),
+            ])
+        ]),
+        trigger(
+            'inOutAnimation',
+            [
+                transition(
+                    ':enter',
+                    [
+                        style({ opacity: 0 }),
+                        animate('.3s ease-out',
+                            style({ opacity: 1 }))
+                    ]
+                ),
+                transition(
+                    ':leave',
+                    [
+                        style({ opacity: 1 }),
+                        animate('.3s ease-in',
+                            style({ opacity: 0 }))
+                    ]
+                )
+            ]
+        )
+    ]
+})
+export class AppComponent implements OnInit {
+
+    constructor(public service: UsageMetricsService) { }
+
+    ngOnInit(): void {
+        this.service.doFetchData().subscribe();
+    }
+
+}

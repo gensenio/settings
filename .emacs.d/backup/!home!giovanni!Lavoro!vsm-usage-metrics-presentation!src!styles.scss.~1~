@@ -1,0 +1,56 @@
+/*
+*  Custom Styling for VSMUsageMetrics
+*/
+
+.ui-treetable-tbody {
+  > tr.first-level {
+    background-color: #e3e4e5;
+  }
+}
+
+.ui-treetable {
+  .ui-treetable-toggler {
+    >i {
+      &.pi-chevron-right:before {
+        content: "\e9ed" !important;
+      }
+      &.pi-chevron-down:before {
+        content: "\e90e" !important;
+      }
+    }
+  }
+}
+
+.ui-dialog-mask {
+  z-index: 9999;
+  display: flex;
+  height: 100vh
+}
+
+.progress-box {
+  overflow: visible;
+  margin: auto auto;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  max-height: 500px;
+  zoom: 1;
+
+  >table {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+
+    td {
+      border-bottom: 1px dashed white;
+    }
+  }
+
+
+}
+
+.progress-check {
+  transition: .1s opacity ease;
+}
