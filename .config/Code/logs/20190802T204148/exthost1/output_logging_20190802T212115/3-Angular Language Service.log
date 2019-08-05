@@ -1,0 +1,80 @@
+Search path: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/src
+Config file name: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/tsconfig.json
+Angular Language Service: 8.0.3
+TypeScript: 3.4.5
+getTemplateReferences: 4867ms
+Add recursive watcher for: /home/giovanni/Lavoro/vsm-usage-metrics-presentation
+Opened configuration file /home/giovanni/Lavoro/vsm-usage-metrics-presentation/tsconfig.json
+getTemplateReferences: 0ms
+Angular Language Service: 8.0.3
+TypeScript: 3.4.5
+getTemplateReferences: 461ms
+remove project: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/index.html
+Search path: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/views/overview
+Config file name: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/tsconfig.json
+Angular Language Service: 8.0.3
+TypeScript: 3.4.5
+getTemplateReferences: 4899ms
+Add recursive watcher for: /home/giovanni/Lavoro/vsm-usage-metrics-presentation
+Opened configuration file /home/giovanni/Lavoro/vsm-usage-metrics-presentation/tsconfig.json
+getTemplateReferences: 0ms
+Search path: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/views/overview
+Config file name: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/tsconfig.json
+getTemplateReferences: 0ms
+getTemplateReferences: 0ms
+getDiagnostics: 1135ms
+getHoverAt: 38ms
+Search path: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/views/overview
+Config file name: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/tsconfig.json
+getTemplateReferences: 0ms
+getHoverAt: 2ms
+getDiagnostics: 307ms
+getDiagnostics: 499ms
+getDiagnostics: 186ms
+updating project structure from ...
+getTemplateReferences: 63ms
+updated: ng - 0ms
+getHoverAt: 1ms
+getDefinitionAt: 0ms
+Search path: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/views/overview
+Config file name: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/tsconfig.json
+getTemplateReferences: 0ms
+getDiagnostics: 205ms
+getHoverAt: 0ms
+getHoverAt: 0ms
+getHoverAt: 0ms
+getDiagnostics: 633ms
+updating project structure from ...
+getTemplateReferences: 0ms
+updated: ng - 0ms
+getDiagnostics: 321ms
+getDiagnostics: 407ms
+getDiagnostics: 101ms
+updating project structure from ...
+getTemplateReferences: 46ms
+updated: ng - 0ms
+Search path: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/views/overview
+Config file name: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/tsconfig.json
+getTemplateReferences: 0ms
+getDiagnostics: 116ms
+getHoverAt: 1ms
+getHoverAt: 0ms
+getHoverAt: 1ms
+getDiagnostics: 225ms
+updating project structure from ...
+getTemplateReferences: 0ms
+updated: ng - 0ms
+Search path: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/views/overview
+Config file name: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/tsconfig.json
+getTemplateReferences: 0ms
+getDiagnostics: 141ms
+getHoverAt: 1ms
+getDefinitionAt: 0ms
+Search path: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/node_modules/rxjs/internal/observable
+Config file name: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/tsconfig.json
+getTemplateReferences: 116ms
+getTemplateReferences: 0ms
+Search path: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/views/overview
+Config file name: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/tsconfig.json
+getTemplateReferences: 0ms
+getDiagnostics: 209ms

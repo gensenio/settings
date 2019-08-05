@@ -1,0 +1,3 @@
+[2019-08-03 13:23:01.009] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/giovanni/Lavoro/vsm-usage-metrics-presentation/.vscode'
+[2019-08-03 13:23:01.010] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/giovanni/Lavoro/vsm-usage-metrics-presentation/.vscode'
+[2019-08-03 13:23:01.150] [renderer1] [error] Si è verificato un errore sconosciuto. Per altri dettagli, vedere il log.

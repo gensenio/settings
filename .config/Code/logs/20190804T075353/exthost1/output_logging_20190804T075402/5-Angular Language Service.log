@@ -1,0 +1,17 @@
+Search path: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/services
+Config file name: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/tsconfig.json
+Angular Language Service: 8.0.3
+TypeScript: 3.4.5
+getTemplateReferences: 6108ms
+Add recursive watcher for: /home/giovanni/Lavoro/vsm-usage-metrics-presentation
+Opened configuration file /home/giovanni/Lavoro/vsm-usage-metrics-presentation/tsconfig.json
+getDiagnostics: 10ms
+getHoverAt: 1ms
+getHoverAt: 1ms
+getHoverAt: 1ms
+getHoverAt: 2ms
+getHoverAt: 2ms
+Search path: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/views/overview
+Config file name: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/tsconfig.json
+getTemplateReferences: 0ms
+getDiagnostics: 144ms

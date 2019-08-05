@@ -1,0 +1,4 @@
+[2019-08-04 07:53:57.303] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/giovanni/Lavoro/vsm-usage-metrics-presentation/.vscode'
+[2019-08-04 07:53:57.304] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/giovanni/Lavoro/vsm-usage-metrics-presentation/.vscode'
+[2019-08-04 07:53:57.455] [renderer1] [error] Si è verificato un errore sconosciuto. Per altri dettagli, vedere il log.
+[2019-08-04 07:53:59.073] [renderer1] [error] net::ERR_INTERNET_DISCONNECTED: Error: net::ERR_INTERNET_DISCONNECTED

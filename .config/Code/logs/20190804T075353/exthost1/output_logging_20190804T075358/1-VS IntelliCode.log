@@ -1,0 +1,5 @@
+Acquiring model 'intellisense-members' for javascript
+Querying IntelliCode service for available models.
+Couldn't reach service Error Message: getaddrinfo EBUSY prod.intellicode.vsengsaas.visualstudio.com prod.intellicode.vsengsaas.visualstudio.com:443, (Error)
+Could not reach the IntelliCode service. Checking the local model cache.
+Recent model was found in cache.

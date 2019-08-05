@@ -1,0 +1,8 @@
+{
+    "window.titleBarStyle": "custom",
+    "workbench.colorTheme": "Abyss",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+}

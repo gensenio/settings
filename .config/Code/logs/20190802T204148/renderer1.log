@@ -1,0 +1,14 @@
+[2019-08-02 20:41:50.292] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-08-02 21:08:45.754] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-08-02 21:09:11.360] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/giovanni/Lavoro/vsm-usage-metrics-presentation/.vscode'
+[2019-08-02 21:09:11.360] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/giovanni/Lavoro/vsm-usage-metrics-presentation/.vscode'
+[2019-08-02 21:15:06.077] [renderer1] [error] Invalid guestInstanceId: null: Error: Invalid guestInstanceId: null
+    at Object.getGuestForWebContents (/home/giovanni/.apps/VSCode-linux-x64/resources/electron.asar/browser/guest-view-manager.js:430:11)
+    at /home/giovanni/.apps/VSCode-linux-x64/resources/electron.asar/browser/rpc-server.js:449:34
+    at EventEmitter.ipcMain.on.args (/home/giovanni/.apps/VSCode-linux-x64/resources/electron.asar/browser/rpc-server.js:278:21)
+    at EventEmitter.emit (events.js:182:13)
+    at WebContents.<anonymous> (/home/giovanni/.apps/VSCode-linux-x64/resources/electron.asar/browser/api/web-contents.js:370:21)
+    at WebContents.emit (events.js:182:13)
+[2019-08-02 21:18:57.381] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/giovanni/Lavoro/vsm-usage-metrics-presentation/.vscode'
+[2019-08-02 21:18:57.382] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/giovanni/Lavoro/vsm-usage-metrics-presentation/.vscode'
+[2019-08-02 21:18:57.851] [renderer1] [error] Si è verificato un errore sconosciuto. Per altri dettagli, vedere il log.

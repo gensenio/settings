@@ -1,0 +1,53 @@
+[2019-08-02 20:41:51.873] [sharedprocess] [info] main {"machineId":"dff0c11a8ac98b2390fbb031ddc26bb8167f4d4eb9de165fd9d6fa1f0552f244"}
+[2019-08-02 20:42:31.880] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-08-02 21:14:09.985] [sharedprocess] [info] Installing extension: ms-vscode.vscode-typescript-tslint-plugin
+[2019-08-02 21:14:12.521] [sharedprocess] [info] Downloaded extension: ms-vscode.vscode-typescript-tslint-plugin /tmp/bf869223-7803-4d51-b999-221eebeebdd5
+[2019-08-02 21:14:12.806] [sharedprocess] [info] Extracted extension to /home/giovanni/.vscode/extensions/.ms-vscode.vscode-typescript-tslint-plugin-1.2.2: ms-vscode.vscode-typescript-tslint-plugin
+[2019-08-02 21:14:12.807] [sharedprocess] [info] Renamed to /home/giovanni/.vscode/extensions/ms-vscode.vscode-typescript-tslint-plugin-1.2.2
+[2019-08-02 21:14:12.808] [sharedprocess] [info] Installation completed. ms-vscode.vscode-typescript-tslint-plugin
+[2019-08-02 21:14:12.867] [sharedprocess] [info] Extensions installed successfully: ms-vscode.vscode-typescript-tslint-plugin
+[2019-08-02 21:15:06.181] [sharedprocess] [info] Installing extension: vscode-icons-team.vscode-icons
+[2019-08-02 21:15:08.952] [sharedprocess] [info] Downloaded extension: vscode-icons-team.vscode-icons /tmp/49ec8764-fc17-4aa3-a273-3a3a4b9b5e5f
+[2019-08-02 21:15:10.339] [sharedprocess] [info] Extracted extension to /home/giovanni/.vscode/extensions/.vscode-icons-team.vscode-icons-9.2.0: vscode-icons-team.vscode-icons
+[2019-08-02 21:15:10.339] [sharedprocess] [info] Renamed to /home/giovanni/.vscode/extensions/vscode-icons-team.vscode-icons-9.2.0
+[2019-08-02 21:15:10.341] [sharedprocess] [info] Installation completed. vscode-icons-team.vscode-icons
+[2019-08-02 21:15:10.389] [sharedprocess] [info] Extensions installed successfully: vscode-icons-team.vscode-icons
+[2019-08-02 21:15:25.073] [sharedprocess] [info] Installing extension: vscjava.vscode-maven
+[2019-08-02 21:15:25.693] [sharedprocess] [info] Downloaded extension: vscjava.vscode-maven /tmp/a5fd8034-0b34-4476-8729-493d328077b9
+[2019-08-02 21:15:25.763] [sharedprocess] [info] Extracted extension to /home/giovanni/.vscode/extensions/.vscjava.vscode-maven-0.18.1: vscjava.vscode-maven
+[2019-08-02 21:15:25.763] [sharedprocess] [info] Renamed to /home/giovanni/.vscode/extensions/vscjava.vscode-maven-0.18.1
+[2019-08-02 21:15:25.764] [sharedprocess] [info] Installation completed. vscjava.vscode-maven
+[2019-08-02 21:15:25.806] [sharedprocess] [info] Extensions installed successfully: vscjava.vscode-maven
+[2019-08-02 21:16:21.603] [sharedprocess] [info] Installing extension: visualstudioexptteam.vscodeintellicode
+[2019-08-02 21:16:28.122] [sharedprocess] [info] Downloaded extension: visualstudioexptteam.vscodeintellicode /tmp/c8fdc5b9-d46a-4b5c-ba14-aafaea4baf2d
+[2019-08-02 21:16:28.222] [sharedprocess] [info] Extracted extension to /home/giovanni/.vscode/extensions/.visualstudioexptteam.vscodeintellicode-1.1.8: visualstudioexptteam.vscodeintellicode
+[2019-08-02 21:16:28.222] [sharedprocess] [info] Renamed to /home/giovanni/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.1.8
+[2019-08-02 21:16:28.223] [sharedprocess] [info] Installation completed. visualstudioexptteam.vscodeintellicode
+[2019-08-02 21:16:28.267] [sharedprocess] [info] Extensions installed successfully: visualstudioexptteam.vscodeintellicode
+[2019-08-02 21:17:19.489] [sharedprocess] [info] Installing extension: angular.ng-template
+[2019-08-02 21:17:35.459] [sharedprocess] [info] Downloaded extension: angular.ng-template /tmp/78dfc8d9-ae09-4695-aa29-efb1ba9bc58a
+[2019-08-02 21:17:44.801] [sharedprocess] [info] Extracted extension to /home/giovanni/.vscode/extensions/.angular.ng-template-0.801.1: angular.ng-template
+[2019-08-02 21:17:44.801] [sharedprocess] [info] Renamed to /home/giovanni/.vscode/extensions/angular.ng-template-0.801.1
+[2019-08-02 21:17:44.803] [sharedprocess] [info] Installation completed. angular.ng-template
+[2019-08-02 21:17:44.874] [sharedprocess] [info] Extensions installed successfully: angular.ng-template
+[2019-08-02 21:18:08.114] [sharedprocess] [info] Installing extension: ms-ceintl.vscode-language-pack-it
+[2019-08-02 21:18:09.482] [sharedprocess] [info] Downloaded extension: ms-ceintl.vscode-language-pack-it /tmp/7516ee72-4cf4-4cd8-921a-a68d66fcab65
+[2019-08-02 21:18:09.605] [sharedprocess] [info] Extracted extension to /home/giovanni/.vscode/extensions/.ms-ceintl.vscode-language-pack-it-1.37.3: ms-ceintl.vscode-language-pack-it
+[2019-08-02 21:18:09.605] [sharedprocess] [info] Renamed to /home/giovanni/.vscode/extensions/ms-ceintl.vscode-language-pack-it-1.37.3
+[2019-08-02 21:18:09.606] [sharedprocess] [info] Installation completed. ms-ceintl.vscode-language-pack-it
+[2019-08-02 21:18:09.647] [sharedprocess] [info] Extensions installed successfully: ms-ceintl.vscode-language-pack-it
+[2019-08-02 21:18:58.886] [sharedprocess] [info] main {"machineId":"dff0c11a8ac98b2390fbb031ddc26bb8167f4d4eb9de165fd9d6fa1f0552f244"}
+[2019-08-02 21:19:38.896] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-08-02 21:19:38.898] [sharedprocess] [info] Skipping directory b76c8ec6c32bee6748ba9357fdd5b8e6.it. Language pack still in use.
+[2019-08-02 21:31:45.529] [sharedprocess] [info] Installing extension: mrmlnc.vscode-scss
+[2019-08-02 21:31:46.278] [sharedprocess] [info] Downloaded extension: mrmlnc.vscode-scss /tmp/f370bdfe-bfff-4b52-88a2-fd994c973214
+[2019-08-02 21:31:46.939] [sharedprocess] [info] Extracted extension to /home/giovanni/.vscode/extensions/.mrmlnc.vscode-scss-0.6.2: mrmlnc.vscode-scss
+[2019-08-02 21:31:46.940] [sharedprocess] [info] Renamed to /home/giovanni/.vscode/extensions/mrmlnc.vscode-scss-0.6.2
+[2019-08-02 21:31:46.942] [sharedprocess] [info] Installation completed. mrmlnc.vscode-scss
+[2019-08-02 21:31:47.013] [sharedprocess] [info] Extensions installed successfully: mrmlnc.vscode-scss
+[2019-08-02 21:31:49.053] [sharedprocess] [info] Installing extension: michelemelluso.code-beautifier
+[2019-08-02 21:31:49.560] [sharedprocess] [info] Downloaded extension: michelemelluso.code-beautifier /tmp/42d0fb10-bad4-4242-bfa0-ecd873626945
+[2019-08-02 21:31:49.974] [sharedprocess] [info] Extracted extension to /home/giovanni/.vscode/extensions/.michelemelluso.code-beautifier-2.3.3: michelemelluso.code-beautifier
+[2019-08-02 21:31:49.974] [sharedprocess] [info] Renamed to /home/giovanni/.vscode/extensions/michelemelluso.code-beautifier-2.3.3
+[2019-08-02 21:31:49.975] [sharedprocess] [info] Installation completed. michelemelluso.code-beautifier
+[2019-08-02 21:31:50.026] [sharedprocess] [info] Extensions installed successfully: michelemelluso.code-beautifier

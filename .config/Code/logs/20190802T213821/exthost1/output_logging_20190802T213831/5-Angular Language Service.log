@@ -1,0 +1,128 @@
+Search path: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/views/overview
+Config file name: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/tsconfig.json
+Angular Language Service: 8.0.3
+TypeScript: 3.4.5
+getTemplateReferences: 6272ms
+Add recursive watcher for: /home/giovanni/Lavoro/vsm-usage-metrics-presentation
+Opened configuration file /home/giovanni/Lavoro/vsm-usage-metrics-presentation/tsconfig.json
+getCompletions: 24ms
+getDiagnostics: 138ms
+updating project structure from ...
+updated: ng - 0ms
+remove project: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/main.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/polyfills.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/test.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/app.component.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/app.module.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/models/ComplexEntryValue.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/models/Metric.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/models/MetricDescriptor.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/models/MetricValue.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/models/Product.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/models/SearchParams.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/services/Mock.service.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/services/UsageMetrics.service.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/views/detail/detail.component.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/views/new-view/new-view.component.spec.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/views/new-view/new-view.component.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/views/overview/overview.component.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/environments/environment.prod.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/environments/environment.ts
+Search path: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/views/overview
+Config file name: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/tsconfig.json
+Angular Language Service: 8.0.3
+TypeScript: 3.4.5
+getTemplateReferences: 4897ms
+Add recursive watcher for: /home/giovanni/Lavoro/vsm-usage-metrics-presentation
+Opened configuration file /home/giovanni/Lavoro/vsm-usage-metrics-presentation/tsconfig.json
+getDiagnostics: 4ms
+getCompletions: 30ms
+getDiagnostics: 94ms
+getCompletions: 53ms
+getCompletions: 40ms
+getDiagnostics: 218ms
+getDiagnostics: 188ms
+getCompletions: 16ms
+getCompletions: 35ms
+getDiagnostics: 184ms
+getCompletions: 27ms
+getDiagnostics: 132ms
+getDiagnostics: 189ms
+remove project: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/main.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/polyfills.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/test.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/app.component.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/app.module.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/models/ComplexEntryValue.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/models/Metric.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/models/MetricDescriptor.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/models/MetricValue.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/models/Product.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/models/SearchParams.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/services/Mock.service.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/services/UsageMetrics.service.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/views/detail/detail.component.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/views/new-view/new-view.component.spec.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/views/new-view/new-view.component.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/views/overview/overview.component.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/environments/environment.prod.ts,/home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/environments/environment.ts
+Search path: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/views/overview
+Config file name: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/tsconfig.json
+Angular Language Service: 8.0.3
+TypeScript: 3.4.5
+getTemplateReferences: 4218ms
+Add recursive watcher for: /home/giovanni/Lavoro/vsm-usage-metrics-presentation
+Opened configuration file /home/giovanni/Lavoro/vsm-usage-metrics-presentation/tsconfig.json
+updating project structure from ...
+updated: ng - 0ms
+getDiagnostics: 5ms
+Search path: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/services
+Config file name: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/tsconfig.json
+getTemplateReferences: 0ms
+getDiagnostics: 18ms
+getHoverAt: 0ms
+getCompletions: 48ms
+getDiagnostics: 10ms
+updating project structure from ...
+updated: ng - 206ms
+getDiagnostics: 342ms
+updating project structure from ...
+updated: ng - 0ms
+getDiagnostics: 78ms
+getCompletions: 37ms
+getDiagnostics: 10ms
+updating project structure from ...
+updated: ng - 88ms
+getDiagnostics: 221ms
+updating project structure from ...
+updated: ng - 1ms
+getDiagnostics: 52ms
+updating project structure from ...
+updated: ng - 77ms
+getDiagnostics: 230ms
+updating project structure from ...
+updated: ng - 0ms
+getCompletions: 23ms
+getCompletions: 32ms
+getDiagnostics: 11ms
+updating project structure from ...
+updated: ng - 61ms
+getDiagnostics: 209ms
+updating project structure from ...
+updated: ng - 0ms
+getCompletions: 32ms
+getDiagnostics: 12ms
+getDiagnostics: 24ms
+updating project structure from ...
+updated: ng - 62ms
+getDiagnostics: 278ms
+updating project structure from ...
+updated: ng - 0ms
+getDiagnostics: 20ms
+updating project structure from ...
+updated: ng - 59ms
+getHoverAt: 0ms
+getHoverAt: 0ms
+getHoverAt: 1ms
+getHoverAt: 1ms
+getHoverAt: 0ms
+getHoverAt: 1ms
+getHoverAt: 0ms
+getHoverAt: 1ms
+getHoverAt: 1ms
+getHoverAt: 0ms
+getHoverAt: 1ms
+getHoverAt: 1ms
+getHoverAt: 0ms
+getHoverAt: 0ms
+getHoverAt: 1ms
+getHoverAt: 1ms
+getHoverAt: 1ms
+getHoverAt: 0ms
+getCompletions: 40ms
+getCompletions: 40ms
+getCompletions: 40ms
+getDiagnostics: 260ms
+getDiagnostics: 56ms
+updating project structure from ...
+updated: ng - 71ms
+getDiagnostics: 244ms
+getDiagnostics: 52ms
+getDiagnostics: 48ms
+updating project structure from ...
+updated: ng - 48ms
+getCompletions: 36ms
+getCompletions: 44ms
+getCompletions: 13ms
+getDiagnostics: 231ms
+Search path: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/src/app/services
+Config file name: /home/giovanni/Lavoro/vsm-usage-metrics-presentation/tsconfig.json
+getTemplateReferences: 0ms
+updating project structure from ...
+updated: ng - 97ms
+getDiagnostics: 51ms

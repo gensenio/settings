@@ -1,0 +1,3 @@
+[2019-08-03 20:40:37.204] [sharedprocess] [info] main {"machineId":"dff0c11a8ac98b2390fbb031ddc26bb8167f4d4eb9de165fd9d6fa1f0552f244"}
+[2019-08-03 20:41:17.213] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-08-03 20:41:17.214] [sharedprocess] [info] Skipping directory b76c8ec6c32bee6748ba9357fdd5b8e6.it. Language pack still in use.

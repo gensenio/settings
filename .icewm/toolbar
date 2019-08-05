@@ -1,0 +1,11 @@
+# This is an example for IceWM's toolbar definition file.
+#
+# Place your variants in @CFGDIR@ or in $HOME/.icewm
+# since modifications to this file will be discarded when you
+# (re)install icewm.
+#
+prog xterm utilities-terminal /home/giovanni/.bin/run-xterm.sh
+prog "Web browser" web-browser xdg-open about:blank
+#prog "Email client" email xdg-email
+prog "Idea" "/home/giovanni/Programs/idea/bin/idea.png" "/home/giovanni/Programs/idea/bin/idea.sh"
+

@@ -1,0 +1,42 @@
+{
+   "checksum": "42381029d3662349c29d17b21237633d",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13208980031805071",
+            "id": "7",
+            "name": "GitHub - yshui/compton: A compositor for X11, active fork.",
+            "type": "url",
+            "url": "https://github.com/yshui/compton"
+         } ],
+         "date_added": "13206805391927763",
+         "date_modified": "13208980037709778",
+         "id": "1",
+         "name": "Barra dei Preferiti",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13206811707714436",
+            "id": "5",
+            "name": "Codewars Status - Page Error",
+            "type": "url",
+            "url": "https://www.codewars.com/kata/52cf02cd825aef67070008fa/train/javascript"
+         } ],
+         "date_added": "13206805391927770",
+         "date_modified": "13208980031805071",
+         "id": "2",
+         "name": "Altri Preferiti",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13206805391927771",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Preferiti su disp. mobili",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=9;x=964;y=11"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="22"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="3"/>
+        <value type="int" value="15"/>
+        <value type="int" value="1"/>
+        <value type="int" value="5"/>
+        <value type="int" value="6"/>
+        <value type="int" value="16"/>
+        <value type="int" value="17"/>
+        <value type="int" value="18"/>
+        <value type="int" value="7"/>
+        <value type="int" value="2"/>
+      </property>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.180392"/>
+        <value type="double" value="0.203922"/>
+        <value type="double" value="0.211765"/>
+        <value type="double" value="1.000000"/>
+      </property>
+      <property name="icon-size" type="uint" value="0"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-2" type="string" value="actions"/>
+    <property name="plugin-15" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-5" type="string" value="clock"/>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="names-ordered" type="array">
+        <value type="string" value="thunar"/>
+        <value type="string" value="blueman-tray"/>
+        <value type="string" value="applet networkmanager"/>
+      </property>
+      <property name="show-frame" type="bool" value="false"/>
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="size-max" type="uint" value="22"/>
+    </property>
+    <property name="plugin-16" type="string" value="power-manager-plugin"/>
+    <property name="plugin-17" type="string" value="notification-plugin"/>
+    <property name="plugin-18" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="chrome.instance10925;chrome.instance2435;chrome.instance2774;chrome.instance4922;chrome.instance5164;chrome.instance5461;chrome.instance5564;chrome.instance5576;chrome.instance5613;chrome.instance5710;chrome.instance5925;chrome.instance6128;chrome.instance6750;chrome.instance7726;chrome.instance7844;chrome.instance807;chrome.instance9254;chrome.instance9685;chrome.instance9899"/>
+    </property>
+    <property name="plugin-7" type="string" value="xfce4-clipman-plugin"/>
+    <property name="plugin-1" type="string" value="kbdleds"/>
+    <property name="plugin-3" type="string" value="applicationsmenu"/>
+  </property>
+</channel>

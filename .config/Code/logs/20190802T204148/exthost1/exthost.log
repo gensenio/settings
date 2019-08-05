@@ -1,0 +1,80 @@
+[2019-08-02 20:41:50.280] [exthost] [info] extension host started
+[2019-08-02 20:41:50.296] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-08-02 20:41:50.296] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.apps/VSCode-linux-x64/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-08-02 20:41:50.299] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-08-02 20:41:50.299] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.apps/VSCode-linux-x64/resources/app/extensions/emmet/dist/extension
+[2019-08-02 20:41:50.315] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-08-02 20:41:50.315] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.apps/VSCode-linux-x64/resources/app/extensions/git/dist/main
+[2019-08-02 20:41:50.410] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-08-02 20:41:50.410] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.apps/VSCode-linux-x64/resources/app/extensions/merge-conflict/dist/extension
+[2019-08-02 20:41:50.415] [exthost] [info] eager extensions activated
+[2019-08-02 21:08:45.702] [exthost] [info] extension host started
+[2019-08-02 21:08:45.727] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-08-02 21:08:45.727] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.apps/VSCode-linux-x64/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-08-02 21:08:45.733] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-08-02 21:08:45.733] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.apps/VSCode-linux-x64/resources/app/extensions/emmet/dist/extension
+[2019-08-02 21:08:45.762] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-08-02 21:08:45.762] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.apps/VSCode-linux-x64/resources/app/extensions/git/dist/main
+[2019-08-02 21:08:45.912] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-08-02 21:08:45.912] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.apps/VSCode-linux-x64/resources/app/extensions/merge-conflict/dist/extension
+[2019-08-02 21:08:45.920] [exthost] [info] eager extensions activated
+[2019-08-02 21:08:59.724] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-08-02 21:08:59.724] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.apps/VSCode-linux-x64/resources/app/extensions/configuration-editing/dist/extension
+[2019-08-02 21:08:59.738] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-08-02 21:08:59.738] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.apps/VSCode-linux-x64/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2019-08-02 21:08:59.835] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-08-02 21:08:59.835] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.apps/VSCode-linux-x64/resources/app/extensions/typescript-language-features/dist/extension
+[2019-08-02 21:09:28.979] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-08-02 21:09:28.980] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.apps/VSCode-linux-x64/resources/app/extensions/extension-editing/dist/extension
+[2019-08-02 21:09:35.801] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"activationEvent":"onLanguage:scss"}
+[2019-08-02 21:09:35.801] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.apps/VSCode-linux-x64/resources/app/extensions/css-language-features/client/dist/cssMain
+[2019-08-02 21:10:22.917] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"activationEvent":"onLanguage:json"}
+[2019-08-02 21:10:22.917] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.apps/VSCode-linux-x64/resources/app/extensions/npm/dist/main
+[2019-08-02 21:14:12.956] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.vscode-typescript-tslint-plugin {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-08-02 21:14:12.956] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.vscode/extensions/ms-vscode.vscode-typescript-tslint-plugin-1.2.2/out/index.js
+[2019-08-02 21:15:10.585] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons {"startup":false,"activationEvent":"*"}
+[2019-08-02 21:15:10.585] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.vscode/extensions/vscode-icons-team.vscode-icons-9.2.0/dist/src/vscode-icons.bundle.js
+[2019-08-02 21:15:25.916] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-maven {"startup":false,"activationEvent":"workspaceContains:**/pom.xml"}
+[2019-08-02 21:15:25.916] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.vscode/extensions/vscjava.vscode-maven-0.18.1/dist/extension
+[2019-08-02 21:16:28.371] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-08-02 21:16:28.372] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.1.8/dist/intellicode
+[2019-08-02 21:17:44.917] [exthost] [info] ExtensionService#_doActivateExtension Angular.ng-template {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-08-02 21:17:44.917] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.vscode/extensions/angular.ng-template-0.801.1/out/extension
+[2019-08-02 21:18:57.603] [exthost] [info] extension host started
+[2019-08-02 21:18:57.628] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:json"}
+[2019-08-02 21:18:57.628] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.apps/VSCode-linux-x64/resources/app/extensions/configuration-editing/dist/extension
+[2019-08-02 21:18:57.633] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:json"}
+[2019-08-02 21:18:57.633] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.apps/VSCode-linux-x64/resources/app/extensions/extension-editing/dist/extension
+[2019-08-02 21:18:57.709] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:json"}
+[2019-08-02 21:18:57.709] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.apps/VSCode-linux-x64/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2019-08-02 21:18:57.731] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"activationEvent":"onLanguage:json"}
+[2019-08-02 21:18:57.731] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.apps/VSCode-linux-x64/resources/app/extensions/npm/dist/main
+[2019-08-02 21:18:57.760] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-08-02 21:18:57.760] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.apps/VSCode-linux-x64/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-08-02 21:18:57.763] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-08-02 21:18:57.763] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.apps/VSCode-linux-x64/resources/app/extensions/emmet/dist/extension
+[2019-08-02 21:18:57.770] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-08-02 21:18:57.770] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.apps/VSCode-linux-x64/resources/app/extensions/git/dist/main
+[2019-08-02 21:18:57.798] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-08-02 21:18:57.798] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.apps/VSCode-linux-x64/resources/app/extensions/merge-conflict/dist/extension
+[2019-08-02 21:18:57.801] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons {"startup":true,"activationEvent":"*"}
+[2019-08-02 21:18:57.801] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.vscode/extensions/vscode-icons-team.vscode-icons-9.2.0/dist/src/vscode-icons.bundle.js
+[2019-08-02 21:18:58.337] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-maven {"startup":true,"activationEvent":"workspaceContains:**/pom.xml"}
+[2019-08-02 21:18:58.337] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.vscode/extensions/vscjava.vscode-maven-0.18.1/dist/extension
+[2019-08-02 21:18:58.632] [exthost] [info] eager extensions activated
+[2019-08-02 21:18:58.852] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-08-02 21:18:58.853] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.apps/VSCode-linux-x64/resources/app/extensions/typescript-language-features/dist/extension
+[2019-08-02 21:21:14.603] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"activationEvent":"onLanguage:html"}
+[2019-08-02 21:21:14.603] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.apps/VSCode-linux-x64/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2019-08-02 21:21:14.726] [exthost] [info] ExtensionService#_doActivateExtension Angular.ng-template {"startup":false,"activationEvent":"onLanguage:html"}
+[2019-08-02 21:21:14.726] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.vscode/extensions/angular.ng-template-0.801.1/out/extension
+[2019-08-02 21:21:18.790] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"activationEvent":"onLanguage:scss"}
+[2019-08-02 21:21:18.790] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.apps/VSCode-linux-x64/resources/app/extensions/css-language-features/client/dist/cssMain
+[2019-08-02 21:31:47.097] [exthost] [info] ExtensionService#_doActivateExtension mrmlnc.vscode-scss {"startup":false,"activationEvent":"onLanguage:scss"}
+[2019-08-02 21:31:47.097] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.vscode/extensions/mrmlnc.vscode-scss-0.6.2/out/client.js
+[2019-08-02 21:31:50.114] [exthost] [info] ExtensionService#_doActivateExtension michelemelluso.code-beautifier {"startup":false,"activationEvent":"*"}
+[2019-08-02 21:31:50.114] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.vscode/extensions/michelemelluso.code-beautifier-2.3.3/out/src/extension
+[2019-08-02 21:36:09.845] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.vscode-typescript-tslint-plugin {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-08-02 21:36:09.845] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.vscode/extensions/ms-vscode.vscode-typescript-tslint-plugin-1.2.2/out/index.js
+[2019-08-02 21:36:09.853] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-08-02 21:36:09.854] [exthost] [info] ExtensionService#loadCommonJSModule /home/giovanni/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.1.8/dist/intellicode
